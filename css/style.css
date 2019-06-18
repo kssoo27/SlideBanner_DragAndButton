@@ -1,0 +1,12 @@
+* { margin: 0; padding: 0;}
+body.fixed {overflow: hidden;}
+#keyvisual {position: relative; width: 100%;}
+#keyvisual .mainBanner {width: 100%; overflow: hidden;}
+#keyvisual .mainBanner ul {display: flex; position: relative; transition: transform 0.3s;}
+#keyvisual .mainBanner ul.transNone {transition: none;}
+#keyvisual .mainBanner ul li {align-items : center; overflow : hidden;}
+#keyvisual .mainBanner ul li img {max-width: 100%;}
+#keyvisual .controller {position: absolute; width: 100%; bottom: 15px; text-align: center;}
+#keyvisual .controller a {display : inline-block; width : 0.5em; height : 0.5em; text-indent: -9999px; border-radius: 50%; border: 2px solid #fff; margin-left: 10px;}
+#keyvisual .controller a:first-child {margin-left: 0;}
+#keyvisual .controller a.on {background-color: #358921; border-color: #358921;}
