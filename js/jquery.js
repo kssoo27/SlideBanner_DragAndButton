@@ -1,10 +1,3 @@
-<!Doctype html>
-<html>
-<head>
-<title>slideMotion_JQuery</title>
-<link rel="stylesheet" href="css/style.css">
-<script src="script/jquery-1.10.1.min.js"></script>
-<script>
 $(function(){
 // 기초 STYLE 설정
 	var keyTotal=$(".mainBanner li").length;
@@ -93,36 +86,3 @@ $(function(){
 		bannerMovement();
 	});
 });
-</script>
-</head>
-<body>
-<div id="keyvisual">
-		<div class="mainBanner">
-			<ul>
-				<li>
-					<a href=""><img src="images/image01.jpg" alt="Banner1"></a>
-				</li>
-				<li>
-					<a href=""><img src="images/image02.jpg" alt="Banner2"></a>
-				</li>
-				<li>
-					<a href=""><img src="images/image03.jpg" alt="Banner3"></a>
-				</li>
-				<li>
-					<a href=""><img src="images/image04.jpg" alt="Banner4"></a>
-				</li>
-				<li>
-					<a href=""><img src="images/image05.jpg" alt="Banner5"></a>
-				</li>
-			</ul>
-		</div>
-		<div class="controller">
-			<a href="">1</a>
-			<a href="">2</a>
-			<a href="">3</a>
-			<a href="">4</a>
-			<a href="">5</a>
-		</div>
-	</div>
-</body>
-</html>
